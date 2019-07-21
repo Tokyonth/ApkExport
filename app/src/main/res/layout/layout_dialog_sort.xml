@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <RadioButton
+        android:id="@+id/sort_ra_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_default" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_ascending_appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_ascending_appname" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_descending_appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_descending_appname" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_ascending_appsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_ascending_appsize" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_descending_appsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_descending_appsize" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_ascending_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_ascending_date" />
+
+    <RadioButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/sort_ra_descending_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sort_descending_date" />
+
+</LinearLayout>

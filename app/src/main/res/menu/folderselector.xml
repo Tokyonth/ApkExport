@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tokyonth.apkextractor.activity.FolderSelector">
+           
+    <item
+        android:id="@+id/folderselector_action_confirm"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_save"
+        app:showAsAction="always"
+        android:title="@string/action_confirm"/>
+    
+    <item
+        android:id="@+id/folderselector_action_cancel"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_menu_close"
+        app:showAsAction="always"
+        android:title="@string/action_cancel"/>
+    
+    <item
+        android:id="@+id/folderselector_action_newfolder"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_folderselector_newfolder"/>
+            
+    <item
+        android:id="@+id/folderselector_action_sort_ascending"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:title="@string/action_folderselector_sort_ascending"/>
+    
+     <item
+        android:id="@+id/folderselector_action_sort_descending"
+        android:orderInCategory="500"
+        app:showAsAction="never"
+        android:title="@string/action_folderselector_sort_descending"/>
+     
+    <item
+        android:id="@+id/folderselector_action_reset"
+        android:orderInCategory="500"
+        app:showAsAction="never"
+        android:title="@string/action_folderselector_reset_default"
+        android:visible="false"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="color_searchview_hinttext">#aaaaaa</color>
+    <color name="color_text_clickable_true">#FF3E96</color>
+    <color name="color_text_clickable_false">#C4C4C4</color>
+    <color name="color_multiselectarea">#cf000000</color>
+    <color name="color_actionbar">#3498db</color>
+    <color name="color_swiperefresh_color1">#e74c3c</color>
+    <color name="color_swiperefresh_color2">#2ecc71</color>
+    <color name="color_swiperefresh_color3">#e67e22</color>
+    <color name="color_swiperefresh_color4">#3498db</color>
+    <color name="color_text_black">#000000</color>
+    <color name="color_text_darkred">#ee2c2c</color>
+    <color name="color_att">#0068ea</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="transparent">#0000</color>
+    <color name="text_black">#737373</color>
+    <color name="text_grey">#9DA0A3</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="color_background">#f5f5f5</color>
+</resources>
